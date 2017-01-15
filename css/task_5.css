@@ -1,0 +1,164 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: "微软雅黑";
+	background: #dedede;
+}
+/*头部*/
+header{
+	height: 60px;
+	background: #333;
+	position: relative;
+}
+header h1 img{
+	height: 58px;
+	padding-left: 20px;
+}
+header nav ul{
+	position: absolute;
+	top: 0;
+	right: 10px;
+}
+header nav ul li{
+	float: left;
+    width: 100px;
+    line-height: 60px;
+}
+header nav ul li a{
+	color: beige;
+}
+header nav ul li a:hover{
+	color: darkgrey;
+}
+/*主题部分*/
+article{
+	box-shadow:1px 1px 1px  1px #848484;
+	background: #F5F5DC;
+	padding: 20px;
+	margin: 40px 450px 20px 40px;
+}
+aside{
+	width: 350px;
+	float: right;
+	box-shadow:1px 1px 1px  1px #848484;
+	background: #F5F5DC;
+	padding: 20px;
+	margin-top: 40px;
+	margin-right: 20px;
+}
+article h2{
+	padding: 10px 0px;
+}
+article h3{
+	padding: 10px 0px;
+	color: #808080;
+	font-size: 16px;
+}
+article a:hover{
+	color: red;
+}
+article span{
+	font-size: 12px;
+	color: #808080;
+	line-height:30px;
+}
+article p{
+	text-indent:2em;
+}
+article img{
+	padding: 15px 0;/*作为内联元素，img除外可以设置margin和padding*/
+}
+
+article ul li{
+	list-style-type: none;/*去掉列表前的点*/
+	padding-left: 20px;
+}
+article figure{
+	float: left;
+	width: 120px;
+	border: 1px solid #808080;
+	margin: 15px 40px;
+	text-align: center;
+}
+article figure figcaption{
+	font-size: 12px;
+	margin: 5px;
+}
+article figure img{
+	width: 110px;
+	padding: 5px;
+}
+article ol{
+	margin: 10px 40px;
+}
+article ol li{
+	font-size: 15px;
+	font-weight: bold;
+	padding-bottom: 5px;
+}
+section p{
+	font-size: 15px;
+	font-weight: bold;
+}
+section table{
+    width: 100%;
+    border-collapse: collapse;/*表格边框被合并为单一边框*/
+}
+section table tr th{
+	text-align: left;
+	color: #F5F5DC;
+	background: #333;
+}
+section table tr td{
+	border: 1px solid #ccc;
+}
+section table tr.p1{
+	background: #ccc;
+}
+/*侧栏*/
+aside h3{
+	border-left: 3px solid #ccc;
+	padding-left: 15px;
+}
+aside form div{
+	margin: 20px 0;
+		
+}
+aside form div label{
+	float:left;        
+	text-align: right;
+    width: 35%;
+	padding-right: 10px;
+}
+aside form div p{
+	margin-left: 35%;
+	padding-left: 12px;
+	color: #ccc;
+}
+aside form div textarea{
+	width: 50%;
+	height: 100px;
+}
+aside input.p2{
+	width: 100%;
+	height: 40px;
+	color: white;
+	background: #128fdc;
+	border-radius: 10px;
+	border: none;
+	font-size: 19px;
+}
+aside input.p2:hover{
+	background: #0063dc;
+}
+/*底部*/
+footer{
+	background: black;
+	color: white;
+	text-align: center;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+}
